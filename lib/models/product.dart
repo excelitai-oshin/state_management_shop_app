@@ -7,7 +7,7 @@ class product{
   final double price;
   final String imageUrl;
   bool? isFavorite;
-//hfgvjsdf
+
   product({
     required this.id,
     required this.title,
