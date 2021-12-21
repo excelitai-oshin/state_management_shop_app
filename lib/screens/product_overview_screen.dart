@@ -6,9 +6,11 @@ class productsOverviewScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text('MyShop'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('MyShop'),
     ),
-      body: productsGrid(loadedproducts: [],),
+      body: productsGrid(),
     );
   }
   }

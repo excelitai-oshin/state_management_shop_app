@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-class product{
+class Product with ChangeNotifier{
   final String id;
   final String title;
   final String describetion;
@@ -8,7 +8,7 @@ class product{
   final String imageUrl;
   bool? isFavorite;
 
-  product({
+  Product({
     required this.id,
     required this.title,
     required this.describetion,
